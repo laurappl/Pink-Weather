@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cc03184847.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello Git</h1>
-</body>
+
+
+  </head>
+  <body>
+    <div class="container">
+     <div class="weather-app">
+        <div class="row">
+
+          <div class="col">
+            <h1>
+        
+      </h1>
+      <h3> X    
+      
+      </h3>
+      </div>
+     
+     <div class="col">
+    
+      <form id="search-form">
+        <div class="form-group">
+        <input type="search" class="form-control form-check" id = "where-to-next" placeholder="Where to next?">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+      
+    </div>
+  </div>
+<div class="today-weather">
+ <div id = "weather-description">Sunny</div> 
+  <div id="big-temperature"> 28°</div>
+  <i class="fas fa-sun"></i>
+
+</div>
+
+</br>
+</br>
+   <div class="row">
+
+    <div class="col quote">
+
+      "All that you are
+is all that I'll ever need"
+  
+      
+    </div>
+
+    <div class="col">
+
+<img src="images/pink.svg" alt="Pink Quote" width="300px">
+
+    </div>
+    
+
+   </div> 
+   
+   
+
+  <hr>
+
+<div class="row forecast">
+<div class="col">
+
+  Wed </br>
+  <i class="fas fa-sun"></i>
+</br> <strong> 27°</strong>
+</div>
+
+<div class="col">
+
+  Thu </br>
+  <i class="fas fa-cloud-sun"></i>
+</br> <strong> 23°</strong>
+</div>
+
+<div class="col">
+
+  Fri </br>
+  <i class="fas fa-cloud-sun-rain"></i>
+</br> <strong> 19°</strong>
+</div>
+
+<div class="col">
+
+  Sat </br>
+  <i class="fas fa-cloud-showers-heavy"></i>
+</br> <strong> 17°</strong>
+</div>
+
+<div class="col">
+
+  Sun </br>
+  <i class="fas fa-sun"></i>
+</br> <strong> 20°</strong>
+</div>
+
+
+</div>
+
+    
+</div>
+</div>
+
+<script src="src/index.js">
+
+</script>
+
+  </body>
 </html>
